@@ -20,6 +20,8 @@ if( isset($_POST['enkripsi']) )
     echo "============================</br>";
     echo "ID Enkripsi = " . $enkripsi_id."</br>";
     echo "Nama Enkripsi = " . $enkripsi_name."</br>";
+
+// Dekripsi
 }else{
 
     $id = $_POST['id_user'];
